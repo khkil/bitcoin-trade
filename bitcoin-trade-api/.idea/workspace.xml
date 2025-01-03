@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f9e4399-390c-435d-a690-a3f989da8e05" name="Changes" comment="feat: api 프로젝트 셋팅">
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/src/main/kotlin/com/project/biz_finder/BizFinderApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biz-finder-api/src/test/kotlin/com/project/biz_finder/BizFinderApplicationTests.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qQ4ZLnIZJSExaPA4GszNhyUTAJ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build bitcoin-trade-api.executor": "Run",
+    "Gradle.Build biz-finder-api.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.BitcoinTradeApplicationKt.executor": "Debug",
+    "Spring Boot.BizFinderApplication.executor": "Debug",
+    "Spring Boot.BizFinderApplicationKt.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/khkil/_repo/bitcoin-trade/bitcoin-trade-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="biz-finder-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="biz-finder-api" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BitcoinTradeApplicationKt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="bitcoin-trade.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.trade.BitcoinTradeApplicationKt" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f9e4399-390c-435d-a690-a3f989da8e05" name="Changes" comment="" />
+      <created>1734581519733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734581519733</updated>
+      <workItem from="1734581520830" duration="34000" />
+      <workItem from="1734581589193" duration="4770000" />
+      <workItem from="1734653766400" duration="599000" />
+      <workItem from="1734912252367" duration="2398000" />
+      <workItem from="1734999398072" duration="1310000" />
+      <workItem from="1735171452851" duration="598000" />
+      <workItem from="1735258019791" duration="223000" />
+      <workItem from="1735888484817" duration="790000" />
+      <workItem from="1735889282140" duration="108000" />
+      <workItem from="1735889438934" duration="204000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: api 프로젝트 셋팅">
+      <option name="closed" value="true" />
+      <created>1734584375435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734584375435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: api 프로젝트 셋팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: api 프로젝트 셋팅" />
+  </component>
+</project>
