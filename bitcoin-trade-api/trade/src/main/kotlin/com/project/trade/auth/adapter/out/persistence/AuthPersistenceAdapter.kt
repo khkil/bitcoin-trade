@@ -1,6 +1,5 @@
 package com.project.trade.auth.adapter.out.persistence
 
-
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
 import com.project.trade.auth.application.port.out.GetAccessTokenPort
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Component
 import java.math.BigInteger
 import java.security.MessageDigest
 import java.util.*
-
 
 @Component
 class AuthPersistenceAdapter : GetAccessTokenPort {
@@ -31,8 +29,8 @@ class AuthPersistenceAdapter : GetAccessTokenPort {
             .withClaim("nonce", UUID.randomUUID().toString())
             .withClaim("query_hash", queryHash)
             .withClaim("query_hash_alg", "SHA512")
-            .sign(algorithm);
+            .sign(algorithm)
 
-        return "Bearer $jwtToken";
+        return jwtToken
     }
 }
