@@ -13,6 +13,7 @@ import org.springframework.http.codec.json.Jackson2JsonEncoder
 import org.springframework.stereotype.Component
 import org.springframework.util.LinkedMultiValueMap
 import org.springframework.util.MultiValueMap
+import org.springframework.web.reactive.function.client.ExchangeFilterFunction
 import org.springframework.web.reactive.function.client.ExchangeStrategies
 import org.springframework.web.reactive.function.client.WebClient
 import org.springframework.web.reactive.function.client.WebClient.Builder
@@ -64,6 +65,7 @@ class WebClientConfig(
             .bodyToMono(response)
             .block() ?: throw RuntimeException("Failed to fetch data")
     }
+
 
     // 확장 함수로 객체를 MultiValueMap으로 변환
     fun <T : Any> T.toMultiValueMap(): MultiValueMap<String, String> {
