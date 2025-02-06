@@ -17,7 +17,7 @@ data class CouponTypeEntity(
 
     val description: String,
 
-    val issueMaxCount: Int?,
+    val issueMaxCount: Long,
 
     val createdAt: LocalDateTime?,
 

@@ -8,7 +8,7 @@ import java.time.LocalDateTime
 
 data class CouponType(
     val description: String,
-    val issueMaxCount: Int? = 100,
+    val issueMaxCount: Long = 100,
     val createAt: LocalDateTime? = LocalDateTime.now()
 )
 

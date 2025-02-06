@@ -21,6 +21,10 @@ class CouponPersistenceAdapter(
 
     override fun issueCoupon(issuedCoupon: IssuedCoupon) {
         val couponType: CouponTypeEntity = couponTypeRepository.findById(issuedCoupon.couponTypeId).orElseThrow { throw IllegalArgumentException("coupon type not found") }
+        val issuedCouponCount = issuedCouponRepository.count()
+        if (issuedCouponCount >= couponType.issueMaxCount) {
+            //throw IllegalArgumentException("쿠폰발급수 초과")
+        }
         issuedCouponRepository.save(toIssuedCouponEntity(issuedCoupon, couponType))
     }
 
