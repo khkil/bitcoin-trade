@@ -19,7 +19,10 @@ data class CouponTypeEntity(
 
     val issueMaxCount: Int?,
 
-    val createdAt: LocalDateTime?
+    val createdAt: LocalDateTime?,
+
+    @OneToMany(mappedBy = "couponType", cascade = [CascadeType.ALL])
+    val issuedCoupons: List<IssuedCouponEntity>?
 )
 
 

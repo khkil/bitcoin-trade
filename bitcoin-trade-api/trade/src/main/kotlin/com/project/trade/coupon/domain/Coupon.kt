@@ -16,20 +16,23 @@ fun toCouponTypeEntity(couponType: CouponType): CouponTypeEntity {
     return CouponTypeEntity(
         description = couponType.description,
         issueMaxCount = couponType.issueMaxCount,
-        createdAt = couponType.createAt
+        createdAt = couponType.createAt,
+        issuedCoupons = listOf(),
     );
 }
 
 data class IssuedCoupon(
+    val couponTypeId: Long,
     val couponNumber: String,
     val isUsed: Boolean? = false,
     val createdAt: LocalDateTime? = LocalDateTime.now()
 )
 
-fun toIssuedCouponEntity(issuedCoupon: IssuedCoupon): IssuedCouponEntity {
+fun toIssuedCouponEntity(issuedCoupon: IssuedCoupon, couponTypeEntity: CouponTypeEntity): IssuedCouponEntity {
     return IssuedCouponEntity(
         couponNumber = issuedCoupon.couponNumber,
         isUsed = issuedCoupon.isUsed,
-        createdAt = issuedCoupon.createdAt
+        createdAt = issuedCoupon.createdAt,
+        couponType = couponTypeEntity,
     );
 }

@@ -18,5 +18,8 @@ data class IssuedCouponEntity(
 
     val isUsed: Boolean?,
 
-    val createdAt: LocalDateTime?
+    val createdAt: LocalDateTime?,
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    val couponType: CouponTypeEntity
 )
